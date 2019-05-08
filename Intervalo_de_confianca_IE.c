@@ -34,6 +34,11 @@ float erro(float a, float b){
   return c;
 }
 
+float confianca(float a){
+  float a = (a > 1) ? (a/100) : a;
+  float ZCritico = (1 - a)/2;
+}
+
 //Programa principal
 int main(void){
   //solicitacao de input do usuario
